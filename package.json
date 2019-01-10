@@ -1,8 +1,9 @@
 {
-  "name": "css-in-js-utils",
+  "name": "css-in-js-utils-esmodule-browser-export",
   "version": "3.0.0",
   "description": "Useful utility functions for CSS in JS solutions",
   "main": "lib/index.js",
+  "module": "es/index.js",
   "files": [
     "LICENSE",
     "README.md",
