@@ -1,4 +1,15 @@
-import hyphenateStyleName from 'hyphenate-style-name'
+const uppercasePattern = /[A-Z]/g;
+const msPattern = /^ms-/;
+const hyphenateStyleNameCache = {};
+
+function hyphenateStyleName(string) {
+    return string in hyphenateStyleNameCache
+        ? hyphenateStyleNameCache[string]
+        : hyphenateStyleNameCache[string] = string
+            .replace(uppercasePattern, '-$&')
+            .toLowerCase()
+            .replace(msPattern, '-ms-');
+}
 
 function filterUniqueArray(arr) {
     return arr.filter((val, index) => arr.lastIndexOf(val) === index)
