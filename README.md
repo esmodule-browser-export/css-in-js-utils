@@ -1,3 +1,10 @@
+#ES6 native module fork
+This fork provides a browser friendly export of the module at /es/index.js (ES6 JavaScript native module).
+That export includes all dependencies in one file so as to reduce http calls.
+The /es/index-nodeps.js file is similar but does not include dependencies. This one is for build optimization.
+The purpose of this and similar forks is to be able to load JS native modules and their dependencies from npm.
+
+
 # CSS-in-JS Utilities
 A library that provides useful utilities functions for CSS-in-JS solutions.<br>
 They are intended to be used by CSS-in-JS library authors rather used directly.
