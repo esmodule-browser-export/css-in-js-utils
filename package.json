@@ -1,6 +1,6 @@
 {
   "name": "css-in-js-utils-esmodule-browser-export",
-  "version": "3.0.5",
+  "version": "3.0.6",
   "description": "Useful utility functions for CSS in JS solutions",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -32,7 +32,7 @@
     "rootDir": "modules"
   },
   "dependencies": {
-    "hyphenate-style-name-esmodule-browser-export": "^1.0.3"
+    "hyphenate-style-name-esmodule-browser-export": "^1.0.5"
   },
   "devDependencies": {
     "babel-cli": "^6.22.1",
